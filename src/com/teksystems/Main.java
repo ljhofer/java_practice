@@ -6,20 +6,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        double radius = 0;
-        double area = 0;
-
-        Scanner input = new Scanner(System.in);
-            System.out.println("enter a radius: ");
-        radius = input.nextDouble();
-
-        // Assign a radius
-        radius = 20;
-
-        // Compute area
-        area = radius * radius * 3.14159;
-
-        System.out.println("The area for the circle of radius " + radius + " is " + area);
-
+        slide52();
     }
+
+    public static void slide52 () {
+        int time = 86399;
+        int hours = time / 3600;
+        int secondsLeft = 86399 - ( hours * 3600 );
+        int minutes = secondsLeft / 60;
+        int finalSeconds = 3599 - (minutes * 60);
+        System.out.println(hours+ ":" + minutes + ":" + finalSeconds);
+    }
+
 }
