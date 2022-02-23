@@ -6,8 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        controlFLowExercisesOne();
-        controlFLowExercisesTwo();
+//        controlFLowExercisesOne();
+//        controlFLowExercisesTwo();
+        controlFLowExercisesThree();
 //        slide52();
 //        slide56();
 //        slide15();
@@ -52,6 +53,17 @@ public class Main {
         }
     }
 
+    public static void controlFLowExercisesThree() {
+        int x = 15;
+
+        if (x<10) {
+            System.out.println("Less than 10");
+        } else if (10<x && x<20) {
+            System.out.println("Between 10 and 20");
+        } else if (x>20) {
+            System.out.println("Greater than 20");
+        }
+    }
 
 
 }
