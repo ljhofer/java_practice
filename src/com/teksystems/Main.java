@@ -1,5 +1,6 @@
 package com.teksystems;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -8,7 +9,10 @@ public class Main {
 
 //        controlFLowExercisesOne();
 //        controlFLowExercisesTwo();
-        controlFLowExercisesThree();
+//        controlFLowExercisesThree();
+//        controlFLowExercisesFour();
+//        controlFLowExercisesFive();
+        controlFLowExercisesSix();
 //        slide52();
 //        slide56();
 //        slide15();
@@ -64,6 +68,70 @@ public class Main {
             System.out.println("Greater than 20");
         }
     }
+
+
+    public static void controlFLowExercisesFour(){
+        int x = 15;
+
+        if (10>x && x>20) {
+            System.out.println("Out of range");
+        }
+    }
+
+
+    public static void controlFLowExercisesFive() {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter a score:");
+        int x = input.nextInt();
+        if (90<=x && x<=100) {
+            System.out.println("A");
+        } else if (80<=x && x<90) {
+            System.out.println("B");
+        } else if (70<=x && x<80) {
+            System.out.println("C");
+        } else if (60<=x && x<70) {
+            System.out.println("D");
+        } else if (x<60) {
+            System.out.println("F");
+        } else if (0>x || x>100){
+            System.out.println("Score out of range");
+        }
+
+    }
+
+    public static void controlFLowExercisesSix() {
+        Scanner input2 = new Scanner(System.in);
+        System.out.println("Please enter a number between 1 and 7.");
+        int y = input2.nextInt();
+
+        switch (y) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Out of range");
+        }
+
+    }
+
 
 
 }
