@@ -23,5 +23,15 @@ public class ArraysExercises {
         System.out.println(arr[mid]);
     }
 
+    public static void exerciseThree () {
+        String arr [] = {"red", "green", "blue", "yellow"};
+        System.out.println(arr.length);
+
+        String [] copy = arr.clone();
+
+        System.out.println(Arrays.toString(copy));
+
+    }
+
 
 }
