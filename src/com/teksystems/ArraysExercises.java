@@ -16,5 +16,12 @@ public class ArraysExercises {
 
     public static void exerciseTwo () {
 
+        Integer [] arr = {13, 5, 7, 68, 2};
+
+        int mid = arr.length / 2;
+
+        System.out.println(arr[mid]);
     }
+
+
 }
