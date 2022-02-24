@@ -80,8 +80,14 @@ public class ArraysExercises {
     } // exerciseSeven
 
     public static void exerciseEight() {
+        Integer [] arr = {3, 6, 9, 5, 7};
 
+        int temp = arr[0];
+        arr[0] = arr[arr.length/2];
+        arr[arr.length/2] = temp;
 
-    }
+        System.out.println(Arrays.toString(arr));
+
+    } // exerciseEight
 
 }
