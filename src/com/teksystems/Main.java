@@ -20,7 +20,10 @@ public class Main {
 //        ArraysExercises.exerciseTwo();
 //        ArraysExercises.exerciseThree();
 //        ArraysExercises.exerciseFour();
-        ArraysExercises.exerciseFive();
+//        ArraysExercises.exerciseFive();
+//        ArraysExercises.exerciseSix();
+//        ArraysExercises.exerciseSeven();
+        ArraysExercises.exerciseEight();
 
 
     }

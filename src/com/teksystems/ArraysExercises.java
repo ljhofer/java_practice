@@ -68,5 +68,20 @@ public class ArraysExercises {
 
     } // exerciseSix
 
+    public static void exerciseSeven () {
+        Integer [] arr = {3, 6, 9, 5, 7};
+
+        for (int i = 0; i < arr.length; i++) {
+            if (i != 2){
+                System.out.println(arr[i]);
+            };
+        }
+
+    } // exerciseSeven
+
+    public static void exerciseEight() {
+
+
+    }
 
 }
