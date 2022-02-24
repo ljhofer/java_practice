@@ -16,7 +16,11 @@ public class Main {
 //        slide52();
 //        slide56();
 //        slide15();
-        ArraysExercises.exerciseOne();
+//        ArraysExercises.exerciseOne();
+//        ArraysExercises.exerciseTwo();
+//        ArraysExercises.exerciseThree();
+//        ArraysExercises.exerciseFour();
+        ArraysExercises.exerciseFive();
 
 
     }

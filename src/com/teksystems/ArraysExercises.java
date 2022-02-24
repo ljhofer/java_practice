@@ -12,7 +12,8 @@ public class ArraysExercises {
         arr[2]=3;
 
         System.out.println(Arrays.toString(arr));
-    }
+
+    } // exerciseOne
 
     public static void exerciseTwo () {
 
@@ -21,7 +22,8 @@ public class ArraysExercises {
         int mid = arr.length / 2;
 
         System.out.println(arr[mid]);
-    }
+
+    } // exerciseTwo
 
     public static void exerciseThree () {
         String arr [] = {"red", "green", "blue", "yellow"};
@@ -31,7 +33,29 @@ public class ArraysExercises {
 
         System.out.println(Arrays.toString(copy));
 
-    }
+    } // exerciseThree
+
+
+    public static void exerciseFour () {
+        Integer [] arr = {3, 6, 9, 5, 7, 1};
+        System.out.println(arr[0]);
+        System.out.println(arr[arr.length-1]);
+        System.out.println(arr[arr.length]);
+
+        arr[5] = 15;
+
+    } // exerciseFour
+
+    public static void exerciseFive () {
+        Integer [] arr = new Integer[5];
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i]=i;
+        }
+
+        System.out.println(Arrays.toString(arr));
+
+    } // exerciseFive
 
 
 }
