@@ -12,10 +12,13 @@ public class Main {
 //        controlFLowExercisesThree();
 //        controlFLowExercisesFour();
 //        controlFLowExercisesFive();
-        controlFLowExercisesSix();
+//        controlFLowExercisesSix();
 //        slide52();
 //        slide56();
 //        slide15();
+        ArraysExercises.exerciseOne();
+
+
     }
 
     public static void slide52 () {
