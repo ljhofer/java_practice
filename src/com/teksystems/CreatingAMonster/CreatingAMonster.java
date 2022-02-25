@@ -14,7 +14,7 @@ public class CreatingAMonster {
     m1 = new StoneMonster("a2b2");
     System.out.println(m1.attack());
 
-    Monster m4 = new Monster();
+    Monster m4 = new Monster("u2u2");
     System.out.println(m4.attack());
 
     }

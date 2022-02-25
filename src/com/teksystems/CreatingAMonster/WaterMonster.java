@@ -3,7 +3,7 @@ package com.teksystems.CreatingAMonster;
 public class WaterMonster extends Monster {
 
     public WaterMonster(String name) {
-        this.name = name;
+        super(name);
     }
 
     @Override
