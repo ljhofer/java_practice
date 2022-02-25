@@ -1,5 +1,7 @@
 package com.teksystems;
 
+import com.teksystems.CreatingAMonster.CreatingAMonster;
+
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
@@ -23,7 +25,10 @@ public class Main {
 //        ArraysExercises.exerciseFive();
 //        ArraysExercises.exerciseSix();
 //        ArraysExercises.exerciseSeven();
-        ArraysExercises.exerciseEight();
+//        ArraysExercises.exerciseEight();
+//        ArraysExercises.exerciseNine();
+//        InClassPractice.practice();
+        CreatingAMonster.CreateMonster();
 
 
     }
