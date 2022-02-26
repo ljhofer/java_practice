@@ -27,9 +27,10 @@ public class Main {
 //        ArraysExercises.exerciseSeven();
 //        ArraysExercises.exerciseEight();
 //        ArraysExercises.exerciseNine();
-        ArraysExercises.exerciseTen();
+//        ArraysExercises.exerciseTen();
 //        InClassPractice.practice();
 //        CreatingAMonster.CreateMonster();
+        LoopsExercise.exerciseOne();
 
 
     }
