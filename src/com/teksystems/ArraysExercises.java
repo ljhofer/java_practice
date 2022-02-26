@@ -3,6 +3,7 @@ package com.teksystems;
 import java.util.Arrays;
 
 import java.util.Collections;
+import java.util.Objects;
 
 public class ArraysExercises {
 
@@ -106,5 +107,18 @@ public class ArraysExercises {
         System.out.println("The maximum value is " + max + ".");
 
     } // exerciseNine
+
+
+    public static void exerciseTen() {
+        Object [] objects = new Object[5];
+        objects[0] = 9;
+        objects[1] = "foo";
+        objects[2] = "bar";
+        objects[3] = "java";
+        objects[4] = 2.3;
+
+        System.out.println(Arrays.toString(objects));
+
+    } // exerciseTen
 
 }
