@@ -31,7 +31,8 @@ public class Main {
 //        InClassPractice.practice();
 //        CreatingAMonster.CreateMonster();
 //        LoopsExercise.exerciseOne();
-        LoopsExercise.exerciseTwo();
+//        LoopsExercise.exerciseTwo();
+        LoopsExercise.exerciseThree();
 
 
     }

@@ -21,6 +21,15 @@ public class LoopsExercise {
     } // exerciseTwo
 
 
+    public static void exerciseThree () {
+        int count = 1;
+
+        do {
+            System.out.println(count);
+            count ++;
+        } while (count<=10);
+
+    } // exerciseThree
 
 
     public static void exerciseNumber () {
