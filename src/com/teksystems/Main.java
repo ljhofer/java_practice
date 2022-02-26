@@ -30,7 +30,8 @@ public class Main {
 //        ArraysExercises.exerciseTen();
 //        InClassPractice.practice();
 //        CreatingAMonster.CreateMonster();
-        LoopsExercise.exerciseOne();
+//        LoopsExercise.exerciseOne();
+        LoopsExercise.exerciseTwo();
 
 
     }

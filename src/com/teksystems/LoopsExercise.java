@@ -10,12 +10,22 @@ public class LoopsExercise {
         }
     } // exerciseOne
 
+    public static void exerciseTwo () {
+        int count = 0;
+
+        while (count <= 100) {
+            System.out.println(count);
+            count+=10;
+        }
+
+    } // exerciseTwo
+
+
+
+
     public static void exerciseNumber () {
 
 
-
-
-    }
-
+    } // exerciseNumber
 
 } // LoopExercise class
