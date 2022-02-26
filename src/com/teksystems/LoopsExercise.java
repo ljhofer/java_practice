@@ -32,6 +32,17 @@ public class LoopsExercise {
     } // exerciseThree
 
 
+    public static void exerciseFour () {
+        for (int i = 1; i<=100; i++) {
+            if (i>=25 && i<=75) {
+                continue;
+            } else if (i % 5 == 0) {
+                System.out.println(i);
+            }
+        } // for loop
+
+    } // exerciseFour
+
     public static void exerciseNumber () {
 
 

@@ -32,7 +32,8 @@ public class Main {
 //        CreatingAMonster.CreateMonster();
 //        LoopsExercise.exerciseOne();
 //        LoopsExercise.exerciseTwo();
-        LoopsExercise.exerciseThree();
+//        LoopsExercise.exerciseThree();
+        LoopsExercise.exerciseFour();
 
 
     }
