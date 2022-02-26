@@ -26,9 +26,9 @@ public class Main {
 //        ArraysExercises.exerciseSix();
 //        ArraysExercises.exerciseSeven();
 //        ArraysExercises.exerciseEight();
-//        ArraysExercises.exerciseNine();
+        ArraysExercises.exerciseNine();
 //        InClassPractice.practice();
-        CreatingAMonster.CreateMonster();
+//        CreatingAMonster.CreateMonster();
 
 
     }

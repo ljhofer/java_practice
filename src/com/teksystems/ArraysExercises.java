@@ -2,6 +2,8 @@ package com.teksystems;
 
 import java.util.Arrays;
 
+import java.util.Collections;
+
 public class ArraysExercises {
 
     public static void exerciseOne () {
@@ -89,5 +91,20 @@ public class ArraysExercises {
         System.out.println(Arrays.toString(arr));
 
     } // exerciseEight
+
+    public static void exerciseNine() {
+        Integer [] arr = {4, 2, 9, 13, 1, 0};
+//        Integer minValue = arr.MIN_VALUE;
+//        Integer maxValue = arr.MAX_VALUE;
+        int min = Collections.min(Arrays.asList(arr));
+        int max = Collections.max(Arrays.asList(arr));
+
+        Arrays.sort(arr);
+
+        System.out.println(Arrays.toString(arr));
+        System.out.println("The minimum value is " + min + ".");
+        System.out.println("The maximum value is " + max + ".");
+
+    } // exerciseNine
 
 }
