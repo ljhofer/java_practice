@@ -76,7 +76,7 @@ public class LoopsExercise {
 //
 //        int originalNum = num;
 //
-//        while (num <= 200) {
+//        while (num > 0) {
 //            remainder = num % 10;
 //            reversedNum = reversedNum * 10 + remainder;
 //            num /= 10;

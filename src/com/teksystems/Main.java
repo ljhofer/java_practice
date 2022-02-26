@@ -1,8 +1,7 @@
 package com.teksystems;
 
-import com.teksystems.CreatingAMonster.CreatingAMonster;
+import com.teksystems.MangerAndTrainee.InheritanceActivity;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -38,7 +37,8 @@ public class Main {
 //        LoopsExercise.exerciseSix();
 //        LoopsExercise.exerciseSeven();
 //        LoopsExercise.exerciseEight();
-        LoopsExercise.exerciseNine();
+//        LoopsExercise.exerciseNine();
+        InheritanceActivity.InheritanceActivity();
 
 
     }
