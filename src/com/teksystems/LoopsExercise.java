@@ -69,7 +69,32 @@ public class LoopsExercise {
     } // exerciseSix
 
     public static void exerciseSeven () {
+//
+//        int num = 1;
+//        int reversedNum=0;
+//        int remainder;
+//
+//        int originalNum = num;
+//
+//        while (num <= 200) {
+//            remainder = num % 10;
+//            reversedNum = reversedNum * 10 + remainder;
+//            num /= 10;
+//        } // while loop
+//
+//        if (originalNum == reversedNum) {
+//            System.out.println(originalNum);
+//        }
 
+        for(int i = 10; i < 200; i++){
+            String s = String.valueOf(i);
+            int l = s.length();
+            char first = s.charAt(0);
+            char last = s.charAt(l-1);
+            if(first == last){
+                System.out.println(i);
+            }
+        }
 
     } // exerciseSeven
 
