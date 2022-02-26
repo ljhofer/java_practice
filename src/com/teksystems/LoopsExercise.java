@@ -1,5 +1,8 @@
 package com.teksystems;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class LoopsExercise {
 
     public static void exerciseOne() {
@@ -56,6 +59,12 @@ public class LoopsExercise {
 
     public static void exerciseSix () {
 
+        for (int i = 1; i < 3; i++) {
+            System.out.println("Week " + i + ":");
+            for(int y = 1; y<6; y++) {
+                System.out.println("Day " + y);
+            } //inner loop
+        } // outer loop
 
     } // exerciseSix
 

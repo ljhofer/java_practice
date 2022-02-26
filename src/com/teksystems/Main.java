@@ -34,7 +34,8 @@ public class Main {
 //        LoopsExercise.exerciseTwo();
 //        LoopsExercise.exerciseThree();
 //        LoopsExercise.exerciseFour();
-        LoopsExercise.exerciseFive();
+//        LoopsExercise.exerciseFive();
+        LoopsExercise.exerciseSix();
 
 
     }
