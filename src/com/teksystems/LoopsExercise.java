@@ -43,9 +43,37 @@ public class LoopsExercise {
 
     } // exerciseFour
 
-    public static void exerciseNumber () {
+    public static void exerciseFive () {
+        for (int i = 1; i<=100; i++) {
+            if (i>50) {
+                break;
+            } else if (i % 5 == 0) {
+                System.out.println(i);
+            }
+        } //for loop
+
+    } // exerciseFive
+
+    public static void exerciseSix () {
 
 
-    } // exerciseNumber
+    } // exerciseSix
+
+    public static void exerciseSeven () {
+
+
+    } // exerciseSeven
+
+
+    public static void exerciseEight () {
+
+
+    } // exerciseEight
+
+    public static void exerciseNine () {
+
+
+    } // exerciseNine
+
 
 } // LoopExercise class
