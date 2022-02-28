@@ -8,7 +8,7 @@ public class KidUser implements LibraryUser{
 
     @Override
     public void registerAccount() {
-        if (age <= 12) {
+        if (age < 12) {
             System.out.println("You have successfully registered under a Kids account");
         } else if (age >= 12) {
             System.out.println("Sorry, Age must be less than 12 to register as a kid");
