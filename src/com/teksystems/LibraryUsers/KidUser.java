@@ -6,6 +6,14 @@ public class KidUser implements LibraryUser{
     public int age;
     public String bookType;
 
+    // constructor
+    public KidUser(int age, String bookType) {
+        this.age = age;
+        this.bookType = bookType;
+    }
+
+
+    // methods
     @Override
     public void registerAccount() {
         if (age < 12) {

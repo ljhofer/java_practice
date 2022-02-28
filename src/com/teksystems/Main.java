@@ -1,5 +1,6 @@
 package com.teksystems;
 
+import com.teksystems.LibraryUsers.LibraryInterfaceDemo;
 import com.teksystems.MangerAndTrainee.InheritanceActivity;
 
 import java.util.Scanner;
@@ -38,8 +39,8 @@ public class Main {
 //        LoopsExercise.exerciseSeven();
 //        LoopsExercise.exerciseEight();
 //        LoopsExercise.exerciseNine();
-        InheritanceActivity.InheritanceActivity();
-
+//        InheritanceActivity.InheritanceActivity();
+        LibraryInterfaceDemo.LibraryInterface();
 
     }
 
