@@ -49,7 +49,8 @@ public class Main {
 //        Variables.ExerciseFive();
 //        Variables.ExerciseSix();
 //        Variables.ExerciseSeven();
-        Variables.ExerciseEight();
+//        Variables.ExerciseEight();
+        OperatorsAndNumbers.exerciseThree();
 
     }
 
