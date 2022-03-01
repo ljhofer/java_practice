@@ -81,7 +81,19 @@ public class Variables {
 
 
     public static void ExerciseEight() {
+        double mocha = 3.99D;
+        double latte = 3.79D;
+        double chai = 4.09;
 
+        double subtotal;
+        double totalSale;
+
+        subtotal = mocha*3 + latte*2 + chai*2;
+
+        double SALES_TAX = 0.0685*subtotal;
+        totalSale = subtotal + SALES_TAX;
+
+        System.out.printf("%.2f", totalSale);
 
 
     } // ExerciseEight
