@@ -44,7 +44,9 @@ public class Main {
 //        LibraryInterfaceDemo.LibraryInterface();
 //        Variables.ExerciseOne();
 //        Variables.ExerciseTwo();
-        Variables.ExerciseThree();
+//        Variables.ExerciseThree();
+//        Variables.ExerciseFour();
+        Variables.ExerciseFive();
 
     }
 
