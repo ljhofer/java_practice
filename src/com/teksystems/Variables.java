@@ -56,12 +56,22 @@ public class Variables {
     } // ExerciseFive
 
 
-
     public static void ExerciseSix() {
+        int x = 5;
+        int y = 6;
 
+        double q = y/x;
 
+        System.out.println(q);
+
+        double y2 = (double)y;
+        double q2 = y2/x;
+
+        System.out.println(q2);
 
     } // ExerciseSix
+
+
 
     public static void ExerciseSeven() {
 
