@@ -42,7 +42,9 @@ public class Main {
 //        LoopsExercise.exerciseNine();
 //        InheritanceActivity.InheritanceActivity();
 //        LibraryInterfaceDemo.LibraryInterface();
-        Variables.ExerciseOne();
+//        Variables.ExerciseOne();
+//        Variables.ExerciseTwo();
+        Variables.ExerciseThree();
 
     }
 

@@ -5,20 +5,29 @@ public class Variables {
     public static void ExerciseOne() {
         Integer a = 3;
         Integer b = 4;
-        Integer  sum = a + b;
+        Integer sum = a + b;
 
         System.out.println(sum);
 
     } // ExerciseOne
 
     public static void ExerciseTwo() {
-        double da = 19.99D;
-        double db = 20.25D;
+        double a = 19.99D;
+        double b = 20.25D;
 
+        double sum = a + b;
+
+        System.out.println(sum);
 
     } // ExerciseTwo
 
     public static void ExerciseThree() {
+        int a = 3;
+        double b = 4.36;
+
+        double sum = a + b;
+
+        System.out.println(sum);
 
 
 
