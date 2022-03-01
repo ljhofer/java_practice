@@ -72,12 +72,13 @@ public class Variables {
     } // ExerciseSix
 
 
-
     public static void ExerciseSeven() {
+        final int a = 22;
 
-
+        System.out.println(a + 21);
 
     } // ExerciseSeven
+
 
     public static void ExerciseEight() {
 
