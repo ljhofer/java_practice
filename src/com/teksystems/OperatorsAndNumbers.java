@@ -81,7 +81,22 @@ public class OperatorsAndNumbers {
 
 
     public static void exerciseFive(){
+        int x = 7;
+        int y = 17;
+        int z = x & y;
 
+        // 0001, 1
+
+        System.out.println(z);
+        System.out.println(Integer.toBinaryString(z));
+
+        System.out.println("-----------");
+
+        int a = x | y;
+
+        // 0001 0111, 23
+        System.out.println(a);
+        System.out.println(Integer.toBinaryString(a));
 
     } // exerciseFive
 
