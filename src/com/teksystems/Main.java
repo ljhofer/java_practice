@@ -53,7 +53,8 @@ public class Main {
 //        OperatorsAndNumbers.exerciseThree();
 //        OperatorsAndNumbers.exerciseFour();
 //        OperatorsAndNumbers.exerciseFive();
-        OperatorsAndNumbers.exerciseSix();
+//        OperatorsAndNumbers.exerciseSix();
+        OperatorsAndNumbers.exerciseSeven();
 
     }
 

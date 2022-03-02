@@ -113,7 +113,15 @@ public class OperatorsAndNumbers {
 
 
     public static void exerciseSeven(){
+        int x = 43;
+        x++;
+        System.out.println(x);
 
+        ++x;
+        System.out.println(x);
+
+        x= x+1;
+        System.out.println(x);
 
     } // exerciseSeven
 
