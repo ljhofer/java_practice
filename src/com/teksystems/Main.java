@@ -50,7 +50,8 @@ public class Main {
 //        Variables.ExerciseSix();
 //        Variables.ExerciseSeven();
 //        Variables.ExerciseEight();
-        OperatorsAndNumbers.exerciseThree();
+//        OperatorsAndNumbers.exerciseThree();
+        OperatorsAndNumbers.exerciseFour();
 
     }
 
