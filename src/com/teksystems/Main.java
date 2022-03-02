@@ -52,7 +52,8 @@ public class Main {
 //        Variables.ExerciseEight();
 //        OperatorsAndNumbers.exerciseThree();
 //        OperatorsAndNumbers.exerciseFour();
-        OperatorsAndNumbers.exerciseFive();
+//        OperatorsAndNumbers.exerciseFive();
+        OperatorsAndNumbers.exerciseSix();
 
     }
 

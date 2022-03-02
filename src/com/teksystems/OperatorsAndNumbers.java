@@ -103,6 +103,11 @@ public class OperatorsAndNumbers {
 
     public static void exerciseSix(){
 
+        int x = 22;
+        System.out.println(x);
+
+        x++;
+        System.out.println(x);
 
     } // exerciseSix
 
