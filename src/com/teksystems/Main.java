@@ -54,7 +54,8 @@ public class Main {
 //        OperatorsAndNumbers.exerciseFour();
 //        OperatorsAndNumbers.exerciseFive();
 //        OperatorsAndNumbers.exerciseSix();
-        OperatorsAndNumbers.exerciseSeven();
+//        OperatorsAndNumbers.exerciseSeven();
+        OperatorsAndNumbers.exerciseEight();
 
     }
 

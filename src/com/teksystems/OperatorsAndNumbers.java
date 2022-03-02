@@ -127,7 +127,11 @@ public class OperatorsAndNumbers {
 
 
     public static void exerciseEight(){
+        int x = 5;
+        int y = 8;
 
+        int sum = x++ + y;
+        System.out.println(sum);
 
     } // exerciseEight
 
