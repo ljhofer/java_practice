@@ -8,7 +8,7 @@ public class Coffee extends Product {
     public Coffee(String name, double price, String description, boolean sugar, boolean milk) {
         super(name, price, description);
         this.sugar = sugar;
-        this.milk= milk;
+        this.milk = milk;
     }
 
     public Coffee() {

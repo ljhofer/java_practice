@@ -14,7 +14,7 @@ public class Espresso extends Product {
     public Espresso() {
         super("Espresso", 3.75, "Guaranteed to wake you up!");
         this.extraShot = false;
-        this.macchiato= false;
+        this.macchiato = false;
     }
 
     public boolean isExtraShot() {
