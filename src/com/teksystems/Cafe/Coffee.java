@@ -17,6 +17,21 @@ public class Coffee extends Product {
         this.milk= false;
     }
 
+    public boolean isSugar() {
+        return sugar;
+    }
+
+    public void setSugar(boolean sugar) {
+        this.sugar = sugar;
+    }
+
+    public boolean isMilk() {
+        return milk;
+    }
+
+    public void setMilk(boolean milk) {
+        this.milk = milk;
+    }
 
     @Override
     public double calculateProductTotal(Integer userQuantity) {
