@@ -27,7 +27,11 @@ public class CafeApp {
         double cappuccinoSubTotal = cappuccino.calculateProductTotal(userQuantity);
         System.out.println(cappuccino.getName() + " " + cappuccino.getDescription() + " " + cappuccinoSubTotal + " ");
 
+        double salesTax = 0.685;
+        double orderSubTotal = coffeeSubTotal + espressoSubTotal + cappuccinoSubTotal;
+        double salesTotal = (coffeeSubTotal + espressoSubTotal + cappuccinoSubTotal) * (1+salesTax);
 
+        System.out.printf("Total: %.2f ", salesTotal);
     }
 
 }
