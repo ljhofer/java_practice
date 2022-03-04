@@ -1,6 +1,6 @@
 package com.teksystems.Cafe;
 
-public class Product {
+public abstract class Product {
 
     // fields
     private String name;
@@ -54,10 +54,12 @@ public class Product {
     }
 
     // methods
-    public double calculateProductTotal(Integer userQuantity) {
-
-        double subTotal = price*userQuantity;
-
-        return subTotal;
-    }
+    public abstract double calculateProductTotal(Integer userQuantity);
+//
+//    public double calculateProductTotal(Integer userQuantity) {
+//
+//        double subTotal = price*userQuantity;
+//
+//        return subTotal;
+//    }
 }
