@@ -1,9 +1,11 @@
 package com.teksystems;
 
+import com.teksystems.Cafe.CafeApp;
 import com.teksystems.LibraryUsers.LibraryInterfaceDemo;
 import com.teksystems.MangerAndTrainee.InheritanceActivity;
 
 
+import java.io.*;
 import java.util.Scanner;
 
 public class Main {
@@ -55,7 +57,9 @@ public class Main {
 //        OperatorsAndNumbers.exerciseFive();
 //        OperatorsAndNumbers.exerciseSix();
 //        OperatorsAndNumbers.exerciseSeven();
-        OperatorsAndNumbers.exerciseEight();
+//        OperatorsAndNumbers.exerciseEight();
+        CafeApp.CafeApp();
+
 
     }
 
