@@ -17,6 +17,17 @@ public class CafeApp {
         double coffeeSubTotal = coffee.calculateProductTotal(userQuantity);
         System.out.println(coffee.getName() + " " + coffee.getDescription() + " " + coffeeSubTotal + " ");
 
+        System.out.println("Enter quantity of espressos: ");
+        userQuantity = scanner.nextInt();
+        double espressoSubTotal = espresso.calculateProductTotal(userQuantity);
+        System.out.println(espresso.getName() + " " + espresso.getDescription() + " " + espressoSubTotal + " ");
+
+        System.out.println("Enter quantity of cappuccinos: ");
+        userQuantity = scanner.nextInt();
+        double cappuccinoSubTotal = cappuccino.calculateProductTotal(userQuantity);
+        System.out.println(cappuccino.getName() + " " + cappuccino.getDescription() + " " + cappuccinoSubTotal + " ");
+
+
     }
 
 }
