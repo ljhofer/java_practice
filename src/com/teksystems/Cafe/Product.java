@@ -54,8 +54,9 @@ public class Product {
     }
 
     // methods
-    public double calculateProductTotal() {
-        double subTotal = price*quantity;
+    public double calculateProductTotal(Integer userQuantity) {
+
+        double subTotal = price*userQuantity;
 
         return subTotal;
     }

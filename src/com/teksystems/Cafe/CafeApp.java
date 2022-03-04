@@ -11,9 +11,11 @@ public class CafeApp {
         Product cappuccino = new Product("cappuccino", 4.89, "Creamy and delicious");
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter quantity purchased: ");
 
+        System.out.println("Enter quantity of coffees: ");
         Integer userQuantity = scanner.nextInt();
+        double coffeeSubTotal = coffee.calculateProductTotal(userQuantity);
+        System.out.println(coffee.getName() + " " + coffee.getDescription() + " " + coffeeSubTotal + " ");
 
     }
 
