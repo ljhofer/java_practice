@@ -18,10 +18,10 @@ public class Cappuccino extends Product {
     }
 
     @Override
-    public double calculateProductTotal(Integer userQuantity) {
+    public double calculateProductTotal() {
         double addPeppermint = (this.peppermint ? 2.00 : 0);
         double addWhippedCream = (this.whippedCream ? 1.00 : 0);
-        double subTotal = getPrice()*userQuantity + addPeppermint + addWhippedCream;
+        double subTotal = this.getPrice()*this.getQuantity() + addPeppermint + addWhippedCream;
 
         return subTotal;
     }

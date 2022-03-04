@@ -34,10 +34,10 @@ public class Espresso extends Product {
     }
 
     @Override
-    public double calculateProductTotal(Integer userQuantity) {
+    public double calculateProductTotal() {
         double addShot = (this.extraShot ? 2.00 : 0);
         double addMacchiato = (this.macchiato ? 1.00 : 0);
-        double subTotal = getPrice()*userQuantity + addShot + addMacchiato;
+        double subTotal = this.getPrice()*this.getQuantity() + addShot + addMacchiato;
 
         return subTotal;
     }

@@ -34,8 +34,8 @@ public class Coffee extends Product {
     }
 
     @Override
-    public double calculateProductTotal(Integer userQuantity) {
-        double subTotal = getPrice()*userQuantity;
+    public double calculateProductTotal() {
+        double subTotal = this.getPrice()*this.getQuantity();
 
         return subTotal;
     }

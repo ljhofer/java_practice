@@ -5,8 +5,8 @@ public abstract class Product {
     // fields
     private String name;
     private double price;
-    private String description;
-    private Integer quantity;
+    private static String description;
+    private int quantity;
 
     // constructors
     public Product() {
@@ -37,7 +37,7 @@ public abstract class Product {
         this.price = price;
     }
 
-    public String getDescription() {
+    public static String getDescription() {
         return description;
     }
 
@@ -54,12 +54,6 @@ public abstract class Product {
     }
 
     // methods
-    public abstract double calculateProductTotal(Integer userQuantity);
+    public abstract double calculateProductTotal();
 //
-//    public double calculateProductTotal(Integer userQuantity) {
-//
-//        double subTotal = price*userQuantity;
-//
-//        return subTotal;
-//    }
 }
