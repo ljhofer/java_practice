@@ -55,5 +55,9 @@ public abstract class Product {
 
     // methods
     public abstract double calculateProductTotal();
+
+    public abstract void addOptions();
+
+    public abstract void printOptions();
 //
 }

@@ -15,7 +15,7 @@ public class CafeApp {
         Integer coffeeQuantity = scanner.nextInt();
         coffee.setQuantity(coffeeQuantity);
         double coffeeSubTotal = coffee.calculateProductTotal();
-        System.out.println(coffee.getName() + " " + coffee.getDescription() + " " + coffeeSubTotal + " ");
+        coffee.printOptions();
 
         System.out.println("Enter quantity of espressos: ");
         Integer espressoQuantity = scanner.nextInt();

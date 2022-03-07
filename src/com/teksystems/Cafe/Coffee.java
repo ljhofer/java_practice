@@ -1,5 +1,7 @@
 package com.teksystems.Cafe;
 
+import java.util.Scanner;
+
 public class Coffee extends Product {
 
     boolean sugar = false;
@@ -38,5 +40,35 @@ public class Coffee extends Product {
         double subTotal = this.getPrice()*this.getQuantity();
 
         return subTotal;
+    }
+
+    @Override
+    public void addOptions() {
+        Scanner input = new Scanner(System.in);
+
+        // Do you want sugar?
+        System.out.print("Would you like sugar your coffee?\n Yes:1\n No:2");
+        // Set sugar
+        int userSugar = input.nextInt();
+
+        setSugar(userSugar == 1);
+
+//        if (userSugar == 1) {
+//            setSugar(true);
+//        } else if (userSugar == 2) {
+//            setSugar(false);
+//        }
+
+        // Do you want milk?
+        System.out.println("Would you like milk coffee?\n Yes:1\n No:2");
+        // Set milk?
+        int userMilk = input.nextInt();
+        setMilk(userMilk == 1);
+    }
+
+    @Override
+    public void printOptions() {
+//        System.out.println(this.getName() + " " + coffeeSubTotal + " ");
+
     }
 }
