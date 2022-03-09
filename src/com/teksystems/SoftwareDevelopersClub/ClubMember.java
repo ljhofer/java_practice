@@ -3,22 +3,42 @@ package com.teksystems.SoftwareDevelopersClub;
 public class ClubMember {
 
     // fields
-    public String NAME;
-    public String CITY;
-    public String STATE;
-    public String FAVORITE_PROGRAMMING_LANGUAGE;
+    public String name;
+    public String location;
+    public String favoriteLanguage;
 
     // constructors
     public ClubMember(){
 
     }
 
-    public ClubMember(String NAME, String CITY, String STATE, String FAVORITE_PROGRAMMING_LANGUAGE) {
-        this.NAME = NAME;
-        this.CITY = CITY;
-        this.STATE = STATE;
-        this.FAVORITE_PROGRAMMING_LANGUAGE = FAVORITE_PROGRAMMING_LANGUAGE;
+    public ClubMember(String name, String location, String favoriteLanguage) {
+        this.name = name;
+        this.location = location;
+        this.favoriteLanguage = favoriteLanguage;
     }
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getFavoriteLanguage() {
+        return favoriteLanguage;
+    }
+
+    public void setFavoriteLanguage(String favoriteLanguage) {
+        this.favoriteLanguage = favoriteLanguage;
+    }
 }

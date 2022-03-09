@@ -4,6 +4,7 @@ public class ClubMemberApp {
 
     public static void ClubMemberApp() {
 
+        SoftwareDeveloperClub.readFile();
 
 
 
