@@ -12,27 +12,22 @@ public class SoftwareDeveloperClub {
     static File textFile = new File("members.txt");
     static Scanner input;
     static String[] data;
+    static ArrayList<ClubMember> memberList = new ArrayList<>();
 
     public static void readFile()
         {
             try {
                 input = new Scanner(textFile);
+                String dummyLine = input.nextLine();
                 while (input.hasNext()) {
                     String line = input.nextLine();
                     data = line.split("[*]+");
-                    System.out.println(Arrays.toString(data));
+                    memberList.add(new ClubMember(data[0], data[1] + ", " + data[2], data[3]));
+                    System.out.printf("Member Name: %s\n Location: %s, %s\n Favorite Language: %s\n", data[0], data[1], data[2], data[3]);
                 }
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             }
-
-            List<String> memberList = new ArrayList<>();
-            System.out.println(memberList);
-
-//            for ( String member : members) {
-//                System.out.println(member);
-////                System.out.printf("Member Name: " + %s + "Location: " + %s + "Favorite Language: " + %s\n, member);
-//            }
 
         }
 
