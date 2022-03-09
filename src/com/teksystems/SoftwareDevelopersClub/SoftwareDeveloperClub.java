@@ -10,14 +10,13 @@ import java.util.Scanner;
 public class SoftwareDeveloperClub {
 
     static File textFile = new File("members.txt");
-    static Scanner input;
     static String[] data;
     static ArrayList<ClubMember> memberList = new ArrayList<>();
 
     public static void readFile()
         {
             try {
-                input = new Scanner(textFile);
+                Scanner input = new Scanner(textFile);
                 String dummyLine = input.nextLine();
                 while (input.hasNext()) {
                     String line = input.nextLine();
@@ -30,5 +29,30 @@ public class SoftwareDeveloperClub {
             }
 
         }
+
+    public static void removeMember(Scanner input) {
+//        try {
+//            Scanner input = new Scanner(System.in);
+//            int userChoice = input.nextInt();
+//
+//        } catch {
+//
+//        }
+    }
+
+
+    public static void addMember() {
+
+
+
+    }
+
+
+    public static void quit() {
+
+    }
+
+
+
 
 }
