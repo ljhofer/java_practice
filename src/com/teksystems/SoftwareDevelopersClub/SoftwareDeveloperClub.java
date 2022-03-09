@@ -9,11 +9,11 @@ import java.util.Scanner;
 
 public class SoftwareDeveloperClub {
 
-    static File textFile = new File("members.txt");
-    static String[] data;
-    static ArrayList<ClubMember> memberList = new ArrayList<>();
+    File textFile = new File("members.txt");
+    String[] data;
+    ArrayList<ClubMember> memberList = new ArrayList<>();
 
-    public static void readFile()
+    public void readFile()
         {
             try {
                 Scanner input = new Scanner(textFile);
@@ -30,7 +30,7 @@ public class SoftwareDeveloperClub {
 
         }
 
-    public static void removeMember(Scanner input) {
+    public void removeMember(Scanner input) {
 //        try {
 //            Scanner input = new Scanner(System.in);
 //            int userChoice = input.nextInt();
@@ -41,14 +41,14 @@ public class SoftwareDeveloperClub {
     }
 
 
-    public static void addMember() {
+    public void addMember() {
 
 
 
     }
 
 
-    public static void quit() {
+    public void quit() {
 
     }
 
