@@ -1,5 +1,7 @@
 package com.teksystems.Cafe;
 
+import java.util.Scanner;
+
 public abstract class Product {
 
     // fields
@@ -56,7 +58,7 @@ public abstract class Product {
     // methods
     public abstract double calculateProductTotal();
 
-    public abstract void addOptions();
+    public abstract void addOptions(Scanner input);
 
     public abstract void printOptions();
 //

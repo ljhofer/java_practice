@@ -14,7 +14,7 @@ public class Coffee extends Product {
     }
 
     public Coffee() {
-        super("Coffee", 2.95, "Freshly brewed");
+        super("Coffee", 2.95D, "Freshly brewed");
         this.sugar = false;
         this.milk= false;
     }
@@ -43,27 +43,17 @@ public class Coffee extends Product {
     }
 
     @Override
-    public void addOptions() {
-        Scanner input = new Scanner(System.in);
+    public void addOptions(Scanner input) {
 
-        // Do you want sugar?
-        System.out.print("Would you like sugar your coffee?\n Yes:1\n No:2");
-        // Set sugar
+        System.out.print("Would you like sugar in the coffee?\n Yes:1\n No:2\n");
         int userSugar = input.nextInt();
-
         setSugar(userSugar == 1);
 
-//        if (userSugar == 1) {
-//            setSugar(true);
-//        } else if (userSugar == 2) {
-//            setSugar(false);
-//        }
-
-        // Do you want milk?
-        System.out.println("Would you like milk coffee?\n Yes:1\n No:2");
-        // Set milk?
+        System.out.println("Would you like milk in the coffee?\n Yes:1\n No:2\n");
         int userMilk = input.nextInt();
         setMilk(userMilk == 1);
+
+        System.out.printf("Item: %s    Price: %.2f   Quantity: %x   Subtotal: %.2f\n", this.getName(), this.getPrice(), this.getQuantity(), this.calculateProductTotal());
     }
 
     @Override

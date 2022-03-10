@@ -1,39 +1,58 @@
 package com.teksystems.Cafe;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CafeApp {
 
     public static void CafeApp(){
-        Coffee coffee = new Coffee();
-        Espresso espresso = new Espresso();
-        Cappuccino cappuccino = new Cappuccino();
 
-        Scanner scanner = new Scanner(System.in);
+        ArrayList<Object> shoppingCart = new ArrayList<>();
+        Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter quantity of coffees: ");
-        Integer coffeeQuantity = scanner.nextInt();
-        coffee.setQuantity(coffeeQuantity);
-        double coffeeSubTotal = coffee.calculateProductTotal();
-        coffee.printOptions();
+        while(true) {
+            System.out.println("Please select from the following menu:\n1. Coffee\n2. Cappuccino\n3. Espresso\n4. Check out");
+            switch(input.nextInt()) {
+                case 1:
+                    Coffee coffee = new Coffee();
+                    coffee.setQuantity(1);
+                    coffee.addOptions(input);
+                    shoppingCart.add(coffee);
+                    break;
+                case 2:
+                    Cappuccino cappuccino = new Cappuccino();
+                    cappuccino.setQuantity(1);
+                    cappuccino.addOptions(input);
+                    shoppingCart.add(cappuccino);
+                    break;
+                case 3:
+                    Espresso espresso = new Espresso();
+                    espresso.setQuantity(1);
+                    espresso.addOptions(input);
+                    shoppingCart.add(espresso);
+                    break;
+                case 4:
+                    checkout();
+                    break;
+                default:
+                    System.out.println("Please choose a number between 1 and 4.");
 
-        System.out.println("Enter quantity of espressos: ");
-        Integer espressoQuantity = scanner.nextInt();
-        espresso.setQuantity(espressoQuantity);
-        double espressoSubTotal = espresso.calculateProductTotal();
-        System.out.println(espresso.getName() + " " + espresso.getDescription() + " " + espressoSubTotal + " ");
+            }
+        }
 
-        System.out.println("Enter quantity of cappuccinos: ");
-        Integer cappuccinoQuantity = scanner.nextInt();
-        espresso.setQuantity(cappuccinoQuantity);
-        double cappuccinoSubTotal = cappuccino.calculateProductTotal();
-        System.out.println(cappuccino.getName() + " " + cappuccino.getDescription() + " " + cappuccinoSubTotal + " ");
+//
+//        double salesTax = 0.685;
+//        double orderSubTotal = coffeeSubTotal + espressoSubTotal + cappuccinoSubTotal;
+//        double salesTotal = (coffeeSubTotal + espressoSubTotal + cappuccinoSubTotal) * (1+salesTax);
+//
+//        System.out.printf("Total: %.2f ", salesTotal);
+    }
 
-        double salesTax = 0.685;
-        double orderSubTotal = coffeeSubTotal + espressoSubTotal + cappuccinoSubTotal;
-        double salesTotal = (coffeeSubTotal + espressoSubTotal + cappuccinoSubTotal) * (1+salesTax);
 
-        System.out.printf("Total: %.2f ", salesTotal);
+    private static void checkout() {
+
+
+
     }
 
 }
