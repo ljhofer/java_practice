@@ -52,7 +52,17 @@ public class SoftwareDeveloperClub {
 
     public void addMember() {
 
+        Scanner addMember = new Scanner(System.in);
+        System.out.println("What is the member's first name?");
+        String newMemberName = addMember.nextLine();
 
+        System.out.println("What is the member's location? Example: Minneapolis, MN");
+        String newMemberLocation= addMember.nextLine();
+
+        System.out.println("What is the member's favorite programming language?");
+        String newMemberLanguage= addMember.nextLine();
+
+        memberList.add(new ClubMember(newMemberName, newMemberLocation, newMemberLanguage));
 
     }
 

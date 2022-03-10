@@ -19,7 +19,7 @@ public class ClubMemberApp {
                     club.removeMember();
                     break;
                 case 3:
-//                    club.addMember();
+                    club.addMember();
                     break;
                 case 4:
                     break loop;
