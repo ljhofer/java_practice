@@ -7,9 +7,10 @@ public class CafeApp {
 
     public static void CafeApp(){
 
-        ArrayList<Object> shoppingCart = new ArrayList<>();
+        ArrayList<Product> shoppingCart = new ArrayList<>();
         Scanner input = new Scanner(System.in);
 
+        loop:
         while(true) {
             System.out.println("Please select from the following menu:\n1. Coffee\n2. Cappuccino\n3. Espresso\n4. Check out");
             switch(input.nextInt()) {
@@ -32,8 +33,20 @@ public class CafeApp {
                     shoppingCart.add(espresso);
                     break;
                 case 4:
-                    checkout();
-                    break;
+                    double runningTotal = 0;
+                    double salesTaxRate = 0.0685;
+
+                    for(Product item: shoppingCart){
+                        System.out.printf("Item: %s    Price: %.2f   Quantity: %x   Subtotal: %.2f\n", item.getName(), item.getPrice(), item.getQuantity(), item.calculateProductTotal());
+                        runningTotal += item.calculateProductTotal();
+                    };
+                    double salesTax = salesTaxRate*runningTotal;
+                    double grandTotal = runningTotal + salesTax;
+                    System.out.printf("Subtotal: %.2f\n", runningTotal);
+                    System.out.printf("Sales tax: %.2f\n", salesTax);
+                    System.out.printf("Total: %.2f\n", grandTotal);
+
+                    break loop;
                 default:
                     System.out.println("Please choose a number between 1 and 4.");
 
@@ -49,10 +62,6 @@ public class CafeApp {
     }
 
 
-    private static void checkout() {
-
-
-
-    }
+  
 
 }

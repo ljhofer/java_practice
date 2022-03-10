@@ -37,15 +37,13 @@ public class Cappuccino extends Product {
 
     @Override
     public void addOptions(Scanner input) {
-        System.out.print("Would you like peppermint your cappuccino?\n Yes:1\n No:2\n");
+        System.out.print("Would you like peppermint your cappuccino?\n1: Yes\n2: No\n");
         int userPeppermint = input.nextInt();
         setPeppermint(userPeppermint == 1);
 
-        System.out.println("Would you like whipped cream?\n Yes:1\n No:2\n");
+        System.out.println("Would you like whipped cream?\n1: Yes\n2: No\n");
         int userWhip = input.nextInt();
         setWhippedCream(userWhip == 1);
-
-        System.out.printf("Item: %s    Price: %.2f   Quantity: %x   Subtotal: %.2f\n", this.getName(), this.getPrice(), this.getQuantity(), this.calculateProductTotal());
     }
 
     @Override

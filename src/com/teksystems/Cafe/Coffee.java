@@ -45,15 +45,13 @@ public class Coffee extends Product {
     @Override
     public void addOptions(Scanner input) {
 
-        System.out.print("Would you like sugar in the coffee?\n Yes:1\n No:2\n");
+        System.out.print("Would you like sugar in the coffee?\n1: Yes\n2: No\n");
         int userSugar = input.nextInt();
         setSugar(userSugar == 1);
 
-        System.out.println("Would you like milk in the coffee?\n Yes:1\n No:2\n");
+        System.out.println("Would you like milk in the coffee?\n1: Yes\n2: No\n");
         int userMilk = input.nextInt();
         setMilk(userMilk == 1);
-
-        System.out.printf("Item: %s    Price: %.2f   Quantity: %x   Subtotal: %.2f\n", this.getName(), this.getPrice(), this.getQuantity(), this.calculateProductTotal());
     }
 
     @Override
