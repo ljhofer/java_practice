@@ -18,6 +18,7 @@ public class ClubMember {
         this.favoriteLanguage = favoriteLanguage;
     }
 
+
     public String getName() {
         return name;
     }
@@ -40,5 +41,10 @@ public class ClubMember {
 
     public void setFavoriteLanguage(String favoriteLanguage) {
         this.favoriteLanguage = favoriteLanguage;
+    }
+
+    @Override
+    public String toString() {
+       return String.format("%s %s %s", name, location, favoriteLanguage);
     }
 }
